@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+ul{
+    list-style:none;
+}
+a{
+    color:#222;
+    text-decoration:none;
+}
+
+/* header */
+#header{
+    width:100vw;
+    margin:0 auto;
+    background:#eee;
+}
+#header h1{
+    text-align:center;
+}
+#header img{
+    width:300px;
+}
+
+/* menu */
+#header ul{
+    display:flex;
+    justify-content:space-between;
+    width:1000px;
+    margin:0 auto;
+}
+#header li{
+    text-align:center;
+    height:60px;
+    line-height:60px;
+    width:100%;
+}
+/* a 선택자에 가상선택자 :hover 를 넣고 display:block; 을 넣었더니
+block 요소로 변하지 않아서 :hover를 뺏더니 block 요소가 되었다 */
+#header li a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+#header li a:hover{
+    background:#006241;
+    color:white;
+    font-weight:bold;
+    font-size:30px;
+}
+
+
+/* Footer */
+
+#footer{width:100vw; background:#006241; color:#fff; padding:50px 0px;}
+#footer h2{text-align:center;
+font-size:100px;}
+#footer ul{display:flex; justify-content: center;}
+#footer li{margin:50px 100px 0px; text-align:center;}
+#footer p{margin-bottom:20px; }

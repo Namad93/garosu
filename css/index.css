@@ -1,0 +1,60 @@
+/* header */
+
+#header{
+    width:100%;
+}
+
+/* Visual */
+
+#visual{
+    width:100vw;
+    margin:0px auto;
+}
+#visual img{
+    width:100vw;
+}
+
+/* Container */
+
+#container{
+    width:100%;
+    margin:0px auto;
+    color:#006241;
+}
+.cont_1 .only{
+    text-align:center;
+    font-size:30px;
+}
+.cont_1 h2{
+    text-align:center;
+    font-size:130px;
+    margin-bottom:30px;
+}
+.cont_1 ul{
+    display:flex;
+    justify-content:center;
+}
+.ul_sum{
+    background:#006241;
+    padding:30px 0;
+}
+.cont_1 ul:first-child li:last-child{
+    margin-right:0px;
+    margin-left:500px;
+    padding-top:100px;
+}
+.cont_1 ul:last-child li:first-child{
+    margin-left:0px;
+    margin-right:500px;
+    padding-top:100px;
+}
+h3{
+    font-size:50px;
+}
+li p{
+    font-size:25px;
+    margin-top:30px;
+}
+.cont_1 img{
+    border-radius:10px;
+}

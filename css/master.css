@@ -1,0 +1,71 @@
+/* Visual */
+#visual{
+    width:100vw;
+    margin:0px auto;
+}
+#visual img{
+    width:100vw;
+}
+#container{
+    width:1200px;
+    margin:40px auto;
+}
+#container .day365{
+    text-align:center;
+}
+#container .large{
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top:30px;
+    font-size:60px;
+    line-height:70px;
+}
+#container ul{
+    margin:50px auto 80px;
+    display:flex;
+    justify-content:space-around;
+    text-align: center;
+}
+#container ul:first-child li{
+    width:290px;
+}
+#container li h2{
+    font-size:40px;
+    margin: 15px 0 40px;
+    font-weight:400;
+}
+#container li p{
+    text-align: left;
+    font-size:14px;
+    width:260px;
+    margin:0 auto;
+    color:#777
+}
+#container li img{
+    border-radius:88px 88px 0 0;
+}
+#container ul:first-child li:nth-of-type(2) p{
+    margin-left:40px;
+}
+#container ul:first-child li:nth-of-type(3) p{
+    margin-left:40px;
+}
+video{
+    width:100%;
+}
+#container ul:last-child li{
+    width:500px;
+    margin: 0 auto;
+    text-align:center;
+}
+.pres{
+    font-size:60px;
+    padding-top:20px;
+}
+.left{
+    text-align: left;
+    padding-left:50px;
+}
+.right{
+    text-align: right;
+}

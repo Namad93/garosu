@@ -1,0 +1,116 @@
+/* Visual */
+#visual{
+    width:100vw;
+    margin:0px auto;
+    color:white;
+    letter-spacing:-2px;
+}
+#visual img{
+    width:100vw;
+}
+.visual_bg{
+    background:url(	http://www.dr-antiaging.com/dist/img/sub3_1_top_view_bg.jpg?1198f3aab3a02a9823cd2a3a4ff81e2b
+    ) no-repeat center;
+    background-size:cover;
+    height:60vh;
+    padding:150px 0 0 160px;
+    box-sizing:border-box;
+}
+#visual h4{
+    font-weight:100;
+    font-size:14px;
+}
+#visual h1{
+    font-size:80px;
+    font-weight:100;
+    margin:20px 0;
+}
+#visual p{
+    font-size:14px;
+}
+
+/* CONT */
+    /* cont_1 */
+        /* wrap */
+        .wrap{
+            display:flex;
+            justify-content:center;
+            height:500px;
+            width:70vw;
+            margin:40px auto;
+            border:1px solid #006241;
+            padding: 20px 200px;
+        }
+
+        /* text */
+        .text{
+            padding:30px;
+            width:50%
+        }
+        .text li{
+            list-style:none;
+            display:flex;
+            justify-content:left;
+        }
+        .text h2{
+            font-size:30px;
+            margin:20px 0 40px;
+            font-weight:400;
+        }
+        .text h4{
+            font-weight:400;
+        }
+        .green{
+            color:#006241;
+        }
+        .no{
+            line-height:50px;
+            color:white;
+            background:#006241;
+            width:50px;
+            height:50px;
+            border-radius:50%;
+            text-align: center;
+            margin-bottom:20px;
+        }
+        .text p{
+        margin:4px 0 25px 40px;
+        }
+        /* img */
+        img{
+            height:100%;
+        }
+    /* cont_2 */
+    .con2{
+        width:100%;
+        margin:80px auto;
+        text-align:center;
+    }
+    .con2 h2{
+        font-weight:400;
+        line-height:30px;
+        margin-bottom:80px;
+    }
+    .con2 span{
+        color:#006241
+    }
+    .con2 ul{
+        display:flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        width:400px;
+        margin:0 auto;
+    }
+    .con2 li{
+        margin-bottom:20px;
+        padding:10px 20px;
+        background:#12966a;
+        color:white;
+        border-radius:20px;
+        font-weight:400;
+        font-size:12px;
+    }
+    .con2 li:last-child{
+        margin-right:0;
+    }
+        
